@@ -1,8 +1,8 @@
 import './login.css';
-
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+
 
 function Login() {
   const navigate = useNavigate();
@@ -11,8 +11,9 @@ function Login() {
   const [error, setError] = useState();
 
   async function loginUser(event) {
+    console.log(`${process.env.API}`)
     event.preventDefault();
-    const response = await axios.post('http://localhost:8282/users/login', {
+    const response = await axios.post(`${process.env.REACT_APP_API}/users/login`, {
       email,
       password,
     });
