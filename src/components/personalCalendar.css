@@ -33,19 +33,10 @@
   height: 50px;
 }
 
-.center-child {
-  /* border: 2px solid pink; */
-}
-
 .center-child1 {
   /* border: 2px solid pink; */
   width: 500px;
 }
-
-.center-child:first-child {
-  /* margin-right: 20px; */
-}
-
 /* --start-- APPOINTMENT SCROLL -----------------------------------------------------------------start-- */
 
 .user-scroll {
@@ -635,7 +626,6 @@ ul {
   font-size: 17px;
   outline: none;
   height: 25px;
-  maxlength: 40;
 }
 
 .input-button {
