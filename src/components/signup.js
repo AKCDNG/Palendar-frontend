@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import './signup.css';
 
 import axios from 'axios';

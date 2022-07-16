@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable consistent-return */
 /* eslint-disable react/jsx-no-bind */
@@ -40,6 +41,7 @@ function PersonalCalendar() {
   const [datesToAddClassTo, setDatesToAddClassTo] = useState([]);
   const [name, setName] = useState('');
   const [appointmentsArray, setAppointmentsArray] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [appointmentName, setAppointmentName] = useState('');
   const [userId, setUserId] = useState();
   const [userName, setUserName] = useState('');
@@ -147,7 +149,7 @@ function PersonalCalendar() {
     appointmentInformation(nextValue);
     getWeather(nextDay);
     setError(null);
-    setSuccess(null); 
+    setSuccess(null);
   }
 
   async function submitEvent(event) {
@@ -219,28 +221,28 @@ function PersonalCalendar() {
 
             <div className="group-select-body1">
               <div className="group-select-section1">
-                  <div className="temperature">
-                    <div>
-                      Max Temp:
-                      {' '}
-                      { weatherTempMax }
-                      ºC
-                    </div>
-
-                    <div>
-                      Min Temp:
-                      {' '}
-                      { weatherTempMin }
-                      ºC
-                    </div>
+                <div className="temperature">
+                  <div>
+                    Max Temp:
+                    {' '}
+                    { weatherTempMax }
+                    ºC
                   </div>
 
-                  <div className="conditions">
-                    {/* Weather:
+                  <div>
+                    Min Temp:
+                    {' '}
+                    { weatherTempMin }
+                    ºC
+                  </div>
+                </div>
+
+                <div className="conditions">
+                  {/* Weather:
                     {' '} */}
-                    { weatherConditions }
-                    {'   '}
-                    <img src={weatherIcon} alt="" className="icon" />
+                  { weatherConditions }
+                  {'   '}
+                  <img src={weatherIcon} alt="" className="icon" />
                 </div>
               </div>
               <div className="group-select-section1">

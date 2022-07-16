@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable no-unused-vars */
 /* eslint-disable consistent-return */
 /* eslint-disable react/jsx-no-bind */
@@ -63,7 +64,7 @@ function GroupCalendar() {
         `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london/${
           day.toISOString().split('T')[0]
         }?unitGroup=metric&include=days&key=SZLE9LUXLBZ7XMZGCYRKPGJWV&contentType=json`,
-        {}
+        {},
       )
       .then((response) => {
         setWeatherTempMax(response.data.days[0].tempmax.toFixed(0));
@@ -186,15 +187,15 @@ function GroupCalendar() {
 
   return (
     <>
-      <div className='nav-center'>
+      <div className="nav-center">
         <Navbar />
       </div>
-      <div className='calbody'>
-        <div className='center-element'>
-          <div className='center-child'>
-            <div className='header-buffer'>
-              <div className='greeting'>What do you have in mind?</div>
-              <div className='greeting1'>Coordinate your next group event:</div>
+      <div className="calbody">
+        <div className="center-element">
+          <div className="center-child">
+            <div className="header-buffer">
+              <div className="greeting">What do you have in mind?</div>
+              <div className="greeting1">Coordinate your next group event:</div>
             </div>
             <Calendar
               onChange={onChange}
@@ -206,50 +207,52 @@ function GroupCalendar() {
             {/* {user.name}
               </li>
             ))} */}
-            <div className='group-select-body'>
-              <div className='group-select-section'>
-                <div data-testid='date-info' className='temperature'>
+            <div className="group-select-body">
+              <div className="group-select-section">
+                <div data-testid="date-info" className="temperature">
                   <div>
-                    Max Temp: {weatherTempMax}
+                    Max Temp:
+                    {weatherTempMax}
                     ºC
                   </div>
 
                   <div>
-                    Min Temp: {weatherTempMin}
+                    Min Temp:
+                    {weatherTempMin}
                     ºC
                   </div>
                 </div>
 
-                <div className='conditions'>
+                <div className="conditions">
                   {/* Weather:
                   {' '} */}
                   {weatherConditions}
                   {'   '}
-                  <img src={weatherIcon} alt='' className='icon' />
+                  <img src={weatherIcon} alt="" className="icon" />
                 </div>
               </div>
-              <div className='group-select-section'>
-                <div className='selected-text' data-testid='selected-date'>
-                  <span className='current-date-select'>Selected Date:</span>
+              <div className="group-select-section">
+                <div className="selected-text" data-testid="selected-date">
+                  <span className="current-date-select">Selected Date:</span>
                   <br />
-                  <span className='current-date-select'>
+                  <span className="current-date-select">
                     {value.toDateString()}
                   </span>
                 </div>
-                <form className='submit-form' onSubmit={submitEvent}>
+                <form className="submit-form" onSubmit={submitEvent}>
                   <input
-                    className='input-evnt'
-                    type='text'
+                    className="input-evnt"
+                    type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder='Create event'
+                    placeholder="Create event"
                   />
                   <input
-                    className='input-bttn'
+                    className="input-bttn"
                     disabled={!name}
-                    type='submit'
-                    data-cy='submit-group-event'
-                    value='Submit'
+                    type="submit"
+                    data-cy="submit-group-event"
+                    value="Submit"
                     onClick={() => setIsOpen(true)}
                   />
                 </form>
@@ -261,24 +264,24 @@ function GroupCalendar() {
               </div>
             </div>
           </div>
-          <div className='center-child1'>
-            <div className='header-buffer' />
-            <div className='user-scroll'>
+          <div className="center-child1">
+            <div className="header-buffer" />
+            <div className="user-scroll">
               <ul>
                 {usersAll.map((user, i) => (
                   // eslint-disable-next-line react/no-array-index-key
-                  <li className='user-scroll-list' key={i}>
+                  <li className="user-scroll-list" key={i}>
                     <input
-                      className='checkbox'
-                      type='checkbox'
-                      data-testid='checkbox'
-                      data-cy='checkbox'
+                      className="checkbox"
+                      type="checkbox"
+                      data-testid="checkbox"
+                      data-cy="checkbox"
                       onChange={() => {
                         // eslint-disable-next-line no-underscore-dangle
                         addingUser(user._id);
                       }}
                     />
-                    <div className='user-scroll-name'>{user.name}</div>
+                    <div className="user-scroll-name">{user.name}</div>
                   </li>
                 ))}
               </ul>

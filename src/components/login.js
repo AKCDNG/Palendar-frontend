@@ -1,8 +1,8 @@
+/* eslint-disable react/jsx-filename-extension */
 import './login.css';
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-
 
 function Login() {
   const navigate = useNavigate();
@@ -11,9 +11,8 @@ function Login() {
   const [error, setError] = useState();
 
   async function loginUser(event) {
-
     event.preventDefault();
-    const response = await axios.post(`https://palendar-backend.herokuapp.com/users/login`, {
+    const response = await axios.post('https://palendar-backend.herokuapp.com/users/login', {
       email,
       password,
     });
