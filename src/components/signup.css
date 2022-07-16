@@ -139,7 +139,7 @@ input:-webkit-autofill:focus {
 
 .logo-palendar {
   position: absolute;
-  margin-left: 400px;
+  left: 380px;
   margin-top:10px;
 }
 
