@@ -139,7 +139,9 @@
   width: 60px;
   font-size: 10px;
   margin-right: 20px; */
+  background: none!important;
   border: none;
+  padding: 0!important;
   /*optional*/
   font-family: arial, sans-serif;
   /*input has OS specific font-family*/
@@ -678,7 +680,9 @@ ul {
   width: 60px;
   font-size: 10px;
   margin-right: 20px; */
+  background: none!important;
   border: none;
+  padding: 0!important;
   /*optional*/
   font-family: arial, sans-serif;
   /*input has OS specific font-family*/
