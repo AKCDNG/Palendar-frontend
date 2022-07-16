@@ -55,7 +55,7 @@ function PersonalCalendar() {
   function getAppointments() {
     if (userId) {
       axios
-        .get('http://localhost:8282/appointments/calendar', {
+        .get('https://palendar-backend.herokuapp.com/appointments/calendar', {
           params: {
             user_id: userId,
           },
@@ -84,7 +84,7 @@ function PersonalCalendar() {
 
   async function getUserId() {
     await axios
-      .get('http://localhost:8282/users/userId', {
+      .get('https://palendar-backend.herokuapp.com/users/userId', {
         headers: {
           'x-access-token': localStorage.getItem('token'),
         },

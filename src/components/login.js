@@ -11,9 +11,9 @@ function Login() {
   const [error, setError] = useState();
 
   async function loginUser(event) {
-    console.log(`${process.env.API}`)
+
     event.preventDefault();
-    const response = await axios.post(`${process.env.REACT_APP_API}/users/login`, {
+    const response = await axios.post(`https://palendar-backend.herokuapp.com/users/login`, {
       email,
       password,
     });
