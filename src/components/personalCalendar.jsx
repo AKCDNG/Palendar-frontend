@@ -245,7 +245,7 @@ function PersonalCalendar() {
                   <img src={weatherIcon} alt="" className="icon" />
                 </div>
               </div>
-              <div className="group-select-section1">
+              <div className="group-select-section2">
                 <div className="selected-text" data-testid="selected-date">
                   <span className="current-date-select">Selected Date:</span>
                   <br />

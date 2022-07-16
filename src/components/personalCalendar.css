@@ -84,6 +84,7 @@
   overflow: scroll;
   white-space: nowrap;
   border-radius: 15px;
+  margin-left: 40px;
 
   /* display: flex; */
   /* justify-content: right; */
@@ -210,6 +211,14 @@
   width: 280px;
   border-radius: 15px;
   background-color: rgba(15, 15, 15, 0.44);
+}
+
+.group-select-section2 {
+  height: 160px;
+  width: 280px;
+  border-radius: 15px;
+  background-color: rgba(15, 15, 15, 0.44);
+  margin-left: 40px;
 }
 
 .select-body {
