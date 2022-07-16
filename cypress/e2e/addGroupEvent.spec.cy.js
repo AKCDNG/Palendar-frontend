@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe("add group event", () => {
   it("can make a group event and add test user", () => {
     cy.visit("http://localhost:3000/login");

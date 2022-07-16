@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // cy.exec("mongo final-project-test --eval 'db.users.remove({})'");
 
 describe("sign up", () => {

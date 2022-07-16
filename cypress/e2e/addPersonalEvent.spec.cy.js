@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe("add personal event", () => {
   it("can make a personal event", () => {
     cy.visit("http://localhost:3000/login");
