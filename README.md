@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# Palendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://thepalendar.netlify.app/
 
-## Available Scripts
+## Contributors
 
-In the project directory, you can run:
+* [Anish Kakaiya](https://github.com/AKCDNG)
+* [Russell Morbey](https://github.com/Rmorbey)
+* [Erlantz Ramos](https://github.com/ErlantzR)
+* [Laura Voss](https://github.com/laura-voss)
+* [Slava Yates](https://github.com/amfibiya17)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app allows you to schedule a time to hang out with friends within your busy lifestyle. After signing up you'll be able to populate your calendar with your own personal events.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can then create a group event, where your calendar gets cross referenced with your friends calendars, and determines which days you are all available to hang out.
 
-### `npm test`
+You also have a choice of who you would like to include in the shared calendar, keeping it private.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+### MERN Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [MongoDB](https://www.mongodb.com/) | No-sql Database integrated on cloud platform Atlas.
+- [Express](https://expressjs.com/) | Web framework for Node.js (Back-end Development).
+- [React](https://reactjs.org/) | JavaScript library for building user interfaces (Front-end Development).
+- [NodeJS](https://nodejs.org/en/) | JavaScript runtime built on Chrome's V8 JavaScript engine (Back-end Development).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Notable Others
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Nodemon](https://nodemon.io/) | Reloads the server automatically.
+- [Mongoose](https://mongoosejs.com) | Models objects in MongoDB.
+- [ESLint](https://eslint.org) | Linting.
+- [Jest](https://jestjs.io/) | Testing.
+- [React Testing Library](https://testing-library.com/) | Frontend unit testing.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | Markup language.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Style sheet language.
+- [bcrypt] (https://www.npmjs.com/package/bcrypt) | User password encryption and authentication.
+- [Cypress] (https://www.cypress.io/) | end to end testing.
 
-### `npm run eject`
+### Organisational & Planning Tools
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Trello](https://trello.com/en) | Kanban tool.
+- [Slack](https://slack.com/intl/en-gb/) | Communication tool.
+- [Miro](https://miro.com/) | Diagramming tool.
+- [Balsamiq](https://balsamiq.com/) | Wireframing tool.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## MVP, design and planning
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Homepage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 2022-07-05 at 14 27 33](https://user-images.githubusercontent.com/101583630/177339489-b2ba9501-baa8-4085-8b3a-a0eddb1cb16e.png)
 
-## Learn More
+#### Sign Up
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 2022-07-05 at 14 27 43](https://user-images.githubusercontent.com/101583630/177339533-1187e011-4499-42ad-9c12-69ca9f27f724.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Sign In
 
-### Code Splitting
+![Screenshot 2022-07-05 at 14 27 55](https://user-images.githubusercontent.com/101583630/177339623-bc79d76a-69b5-4358-861e-557ebbfbca96.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Personal Calendar
 
-### Analyzing the Bundle Size
+![Screenshot 2022-07-05 at 14 28 07](https://user-images.githubusercontent.com/101583630/177339656-f6c343ec-220d-4758-8ed1-3b99f96d012b.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Event Calendar
 
-### Making a Progressive Web App
+![Screenshot 2022-07-05 at 14 28 22](https://user-images.githubusercontent.com/101583630/177339674-453418fc-8d54-4a7b-a66f-3c43e939eae7.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Team Approach
 
-### Advanced Configuration
+- Agile Development.
+- TDD.
+- Early project planning.
+- MVP.
+- Regular check-in with team members for blockers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Work hours
 
-### Deployment
+* Start time 9:45am.
+* Lunch 12:30pm - 1:30pm.
+* End day 6:00pm.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Daily stand ups and retros.
 
-### `npm run build` fails to minify
+* Stand ups. 9:45am -10:00am.
+* Retro. 5:30pm.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demo Photos
+
+![HomePage](readme_images/homepage.png)
+
+![Sign Up](readme_images/signup.png)
+
+![Login](readme_images/Login.png)
+
+![Personal Calendar](readme_images/Personal_calendar.png)
+
+![Group Calendar](readme_images/Group_calendar.png)
+
+## Future Improvements
+
+* Add the option to make friend requests.
+
+## How to Run Locally
+
+1. Fork this repository
+2. Rename your fork to `Palendar`
+3. Clone your fork to your local machine
+4. Install Node.js dependencies
+   ```
+   npm install
+   ```
+5. Install an ESLint plugin for your editor. For example: [linter-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for vscode.
+
+### Start Server
+
+```
+npm start
+```
+
+Please leave this terminal running in the background.
+
+### Start Client
+
+[You will need to also clone the palendar-frontend repository on my profile here](https://github.com/AKCDNG/palendar-frontend).
+Open a new terminal.
+
+```
+npm start
+```
+
+Please leave this terminal running in the background, the application should open automatically.
+
+### Test
+
+- Run all tests
+  ```
+  npm test
+  ```
+- Run a check
+  ```bash
+  npm run lint              # linter only
+  npm run test:unit         # unit tests only
+  npm run test:integration  # integration tests only
+  ```
