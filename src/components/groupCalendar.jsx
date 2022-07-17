@@ -208,7 +208,7 @@ function GroupCalendar() {
               </li>
             ))} */}
             <div className="group-select-body">
-              <div className="group-select-section">
+              <div className="group-select-section1">
                 <div data-testid="date-info" className="temperature">
                   <div>
                     Max Temp:
@@ -231,7 +231,7 @@ function GroupCalendar() {
                   <img src={weatherIcon} alt="" className="icon" />
                 </div>
               </div>
-              <div className="group-select-section">
+              <div className="group-select-section2">
                 <div className="selected-text" data-testid="selected-date">
                   <span className="current-date-select">Selected Date:</span>
                   <br />
